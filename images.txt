@@ -1,9 +1,8 @@
-# 镜像源
-mirror:https://docker.m.daocloud.io
-mirror:https://docker.1panel.live
 nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+# 镜像源配置
+{"registry-mirrors": ["https://docker.m.daocloud.io", "https://docker.1panel.live"]}
