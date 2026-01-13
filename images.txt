@@ -8,4 +8,4 @@ xhofe/alist:latest
 "https://docker.m.daocloud.io",
 "https://docker.1panel.live"
 】
-
+docker pull registry.cn-hangzhou.aliyuncs.com/shrimp-images/alpine
