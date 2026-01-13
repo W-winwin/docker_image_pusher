@@ -1,12 +1,9 @@
+# 镜像源
+mirror:https://docker.m.daocloud.io
+mirror:https://docker.1panel.live
 nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:{
-"registry-mirrors": 【
-"https://docker.m.daocloud.io",
-"https://docker.1panel.live"
-】
-}
+xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-docker pull registry.cn-hangzhou.aliyuncs.com/shrimp-images/alpine
